@@ -1,6 +1,21 @@
 // Iteration #1: Find the maximum
-function maxOfTwoNumbers() {}
+function maxOfTwoNumbers(num1,num2) 
+{
+  if(num1>num2)
+  {
+  return num1
+  }
+  
+  else if(num1<num2){
+    return num2
+  }
+  else{
+    let result="both r equal"
+    return result
+  }
+}
 
+console.log(maxOfTwoNumbers(5,10))
 
 
 // Iteration #2: Find longest word
